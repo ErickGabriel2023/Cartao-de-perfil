@@ -1,0 +1,87 @@
+body {
+    font-family: 'Kumbh Sans';
+    background-image: url(./imagem/bg-pattern-top.svg), url(./imagem/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 33vh, left 48vw top 52vh ;
+    background-color: hsl(185, 75%, 39%);
+}
+
+main {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    height: 374px;
+    box-shadow: 4px 50px 90px 1px hsla(229, 23%, 23%, 0.35);
+}
+
+.container .imagem-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.container .container-perfil {
+    margin: -55px;
+}
+
+.container-perfil .imagem_perfil {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.container h1 {
+    color: hsl(229, 23%, 23%);
+    margin-top: 70px;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+h1 .idade {
+    color: hsl(227, 10%, 46%);
+    font-weight: 100;
+    font-size: 17.8px;
+    padding-left: 5px;
+}
+
+.container p {
+    color: hsl(227, 10%, 46%);
+    margin-top: 7.2px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.container .descricao {
+    color: hsl(229, 23%, 23%);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18.8px;
+    padding-top: 23px;
+    margin-right: 5px;
+    border-top: 1px solid #e1e1e1;    
+}
+
+.descricao .text_descritivo {
+    font-family: 'Kumbh Sans';
+    color: hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    padding-top: 3px;
+}
+
+.descricao .text_803k {
+    padding-right: 9px;
+}
+
+.descricao .text_photos {
+    padding-right: 1px;
+}

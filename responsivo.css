@@ -1,0 +1,39 @@
+@media (max-width: 460px) {
+    body {
+        background-position: right 48vw bottom 33vh, left 39vw top 52vh ;
+    }
+
+    main {
+        min-height: 100vh;
+    }
+
+    main .container {
+        width: 250px;
+    }
+
+    .container .imagem-top {
+        width: 250px;
+    }
+
+    .container p {
+        margin-bottom: 30px;
+    }
+
+    .container .descricao {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 360px) {
+    main {
+        min-height: 100vh;
+    }
+
+    main .container {
+        width: 200px;
+    }
+
+    .container .imagem-top {
+        width: 200px;
+    }
+}
